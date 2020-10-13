@@ -1,0 +1,97 @@
+:root
+
+
+
+{ color: rgba(111, 191, 191, 1); 
+ color: rgba(173, 217, 209, 1); 
+ color: rgba(242, 241, 240, 1); 
+ color: rgba(242, 212, 201, 1); 
+ color: rgba(242, 187, 174, 1); }
+
+
+*{
+    overflow: auto;
+}
+body{
+    font-family: 'Share Tech Mono', monospace;
+    background: rgba(111, 191, 191, 1);
+    color: rgba(173, 217, 209, 1);
+    box-sizing: border-box;
+    
+}
+.container{
+    background:rgba(242, 241, 240, 1);
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+h1{
+    font-family: 'Share Tech Mono', monospace;
+    color:rgba(242, 212, 201, 1);
+}
+
+h2{
+    font-family: 'Share Tech Mono', monospace;
+    color:rgba(242, 187, 174, 1);
+    
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #ffffcf;
+    background: rgba(242, 187, 174, 1);
+    border: 2px solid rgba(111, 191, 191, 1);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: rgba(242, 187, 174, 1);
+    background: #ffffcf;
+    
+}
+
+nav a:visited .button:visited{
+    background:rgba(111, 191, 191, 1);
+    border: rgba(2, 89, 89, 1);
+}
+img{
+    padding: 10px;
+    background: rgba(111, 191, 191, 1);
+}
+#cherryblossom{
+    width: 30%;
+    
+    float: right;
+}
+aside{
+    clear: both;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2px rgba(242, 130, 65, 1);
+    margin-right: 10px;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
