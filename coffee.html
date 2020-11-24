@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        .row {
+            border: 3px solid rgb(218, 180, 10);
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+          
+        }
+        
+        @media only screen {
+            /* For desktop: */
+            
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Coffee</h1>
+            <nav>
+                <div class="col-3" style="padding-left: 4%;"><a href="index.html">Home</a> </div>
+                <div class="col-2"><a href="plants.html">Plants</a> </div>
+                <div class="col-2"><a href="art.html">Art</a></div>
+                <div class=col-2><a href="coffee.html">Cofee</a></div>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-4"> <img src="coffee-2151200_640.jpg" alt="coffee"> </div>
+                <div class="col-8">
+                    <p>Oh my goodness guys so the coffee machine that I've been wanting is on sale! It was $700 but they came out with a newer one so the price went down to like $600.<br>
+                        But now it's on sale so it went down to $300!!! I'm poor so I don't know why I'm freaking out but it's something I would like one day. What do you guys think, is that <br>
+                        too expensive for a coffee machine? It does come with a built in grinder, portafilter, tamp, and wand frother. Oh and the name of it is Breville the Barista Express <br>
+                        incase someone wants to buy it for me? I'm just kidding. :)</p>
+                </div>
+            </div>
+            <!-- end row -->
+                <div class="col-5"><img src="coffeehouse-2600877_640.jpg" alt="coffeehouse"></div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-6">
+                    <p>I've been making this instant coffee from Trader Joe's, their cold brew. I have never seen an instant cold brew coffee before. It saves me so much time in the mornings
+                        I highly recommend it! And if your looking for any flavored milks for coffee Trader Joe's also has this Blueberry and Lavander milk that is GREAT! I add some of that to my
+                        coffee and then I fill it up the rest of the way with their Oat Milk. If you haven't tried Oat milk before try that one that's all I buy now. I miss going to coffee shops and <br>
+                    reading book, drawing, or talking to friends.  </p>
+                </div>
+            </div>
+            <!-- end row-->
+        </main>
+        <footer class="row">
+            <div class="col-12">
+                <h3>  &copy; Cynthia Vilchis</h3> </div>
+        </footer>
+    </div>
+</body>
