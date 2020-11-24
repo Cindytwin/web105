@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+        
+        .row {
+            border: 3px solid rgb(218, 180, 10);
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+        }
+
+        @media only screen and (min-width: 450px) {
+            body {
+                background-color: olive;
+            }
+        }
+        
+        @media only screen {
+            /* For tablets: */
+            .col-m-1 {
+                width: 8.33%;
+            }
+            .col-m-2 {
+                width: 16.66%;
+            }
+            .col-m-3 {
+                width: 25%;
+            }
+            .col-m-4 {
+                width: 33.33%;
+            }
+            .col-m-5 {
+                width: 41.66%;
+            }
+            .col-m-6 {
+                width: 50%;
+            }
+            .col-m-7 {
+                width: 58.33%;
+            }
+            .col-m-8 {
+                width: 66.66%;
+            }
+            .col-m-9 {
+                width: 75%;
+            }
+            .col-m-10 {
+                width: 83.33%;
+            }
+            .col-m-11 {
+                width: 91.66%;
+            }
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Art</h1>
+            <nav>
+                <div class="col-m-4"><a href="index.html">Home</a> </div>
+                <div class="col-m-4"><a href="plants.html">Plants</a> </div>
+                <div class="col-m-4"><a href="art.html">Art</a></div>
+                <div class="col-m-12"><a href="coffee.html">Coffee</a></div>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-m-6"> <img src="people-2590655_640.jpg" alt="art"> </div>
+                <div class="col-m-6">
+                    <p>Considering not being able to go to Museums, looking at pictures virtually doesn't satisfy the same way it would in person.<br>
+                    I have been on some of those virtual tours, and don't get me wrong it's awesome that we can go for free, BUT I appreciate it more in person.<br>
+                    I am able to see the intricate lines and curves of the painting. This might be weird but you might think the same thing...that museum smell. <br>
+                    It's a weird thing I know, but I find smells also add something to an experience wiether we appreciate them or not. I also like the fact that in person I can admire the size of a big painting.</p>
+                </div>
+            </div>
+            <!-- end row -->
+
+            <!-- end row -->
+            </div>
+            <!-- end row-->
+                <div class="col-m-6"> <img src="face-mask-5119401_640.jpg" alt="art"> </div>
+                <div class="col-m-12">
+                    <p>I remember in High School I would look for any reason to join a feild trip to the Chicago Art Institute. I find happiness being surrounded by, <br>
+                    not only the history, but artistic talent. I wish I was good enough at art to be in a muesum not because of recognition but the idea of that <br>
+                    a piece of me could forever be in my happy place is neat. Anyway, I also though this picture was cute! I saw it on the news, they had to make a <br>
+                    new mask because someone stole the first one. :(</p>
+                </div>
+            </div>
+            <!-- end row -->
+            </div>
+            <!-- end row-->
+        </main>
+        <footer class="row">
+            <div class="col-m-12">
+                <h3>  &copy; Cynthia Vilchis  </h3> </div>
+        </footer>
+    </div>
+</body>
+
+</html>
